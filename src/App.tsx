@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Card } from './components/cards/card';
+// import { Cards } from './components/cards/cards';
+// import { InputText } from './components/inputText.ts/inputText';
+import { NavEl } from './components/navigaton/navigation';
+import { data } from './data/data';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='class-root'>
+      <NavEl></NavEl>
+      <Card
+        title={data[0].title}
+        price={data[0].price}
+        period={data[0].period}
+        description={data[0].description} img={ data[0].img}></Card>
     </div>
   );
 }
 
 export default App;
+
+// title={ data.title }
+//         price={ data.price }
+//         period={ data.period }
+//         description={ data.description

@@ -1,0 +1,13 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 400px;
+  overflow-y: hidden;
+  border: 1px solid rgb(163, 161, 161);
+  border-radius: 15px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
