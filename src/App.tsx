@@ -13,6 +13,9 @@ function App() {
         <Card {...data[0]}></Card>
         <Card {...data[1]}></Card>
         <Card {...data[2]}></Card>
+        <Card {...data[3]}></Card>
+        <Card {...data[4]}></Card>
+        <Card {...data[5]}></Card>
       </div>
     </div>
   );

@@ -2,6 +2,9 @@ import { ICard } from "../types";
 import logo1 from '../assets/img/georgia1.jpg';
 import logo2 from '../assets/img/georgia2.jpg';
 import logo3 from '../assets/img/georgia3.jpg';
+import logo4 from '../assets/img/georgia4.jpg';
+import logo5 from '../assets/img/georgia5.jpg';
+import logo6 from '../assets/img/georgia6.jpg';
 
 export const data: ICard[] = [
   {
@@ -30,6 +33,33 @@ export const data: ICard[] = [
     title: 'Georgia',
     price: 60000,
     period: 'aug - sep',
+    description: `
+    This part of Batumi contains a wacky mix of structures, from a vast and flamboyant Italianate colonnade built in the 1930s by a local merchant to the large, white, dolphin-shaped hall known as the Wedding House and favoured for local nuptials to the enormous, wooden Summer Theatre which can hold 1200 spectators.
+    `
+  },
+  {
+    img: logo4,
+    title: 'Georgia',
+    price: 70000,
+    period: 'jul - sep',
+    description: `
+    This part of Batumi contains a wacky mix of structures, from a vast and flamboyant Italianate colonnade built in the 1930s by a local merchant to the large, white, dolphin-shaped hall known as the Wedding House and favoured for local nuptials to the enormous, wooden Summer Theatre which can hold 1200 spectators.
+    `
+  },
+  {
+    img: logo5,
+    title: 'Georgia',
+    price: 120000,
+    period: 'aug - nov',
+    description: `
+    This part of Batumi contains a wacky mix of structures, from a vast and flamboyant Italianate colonnade built in the 1930s by a local merchant to the large, white, dolphin-shaped hall known as the Wedding House and favoured for local nuptials to the enormous, wooden Summer Theatre which can hold 1200 spectators.
+    `
+  },
+  {
+    img: logo6,
+    title: 'Georgia',
+    price: 50000,
+    period: 'may - oct',
     description: `
     This part of Batumi contains a wacky mix of structures, from a vast and flamboyant Italianate colonnade built in the 1930s by a local merchant to the large, white, dolphin-shaped hall known as the Wedding House and favoured for local nuptials to the enormous, wooden Summer Theatre which can hold 1200 spectators.
     `
