@@ -1,13 +1,52 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 250px;
-  height: 400px;
-  overflow-y: hidden;
+  width: 300px;
+  height: auto;
   border: 1px solid rgb(163, 161, 161);
   border-radius: 15px;
+  margin: 0px;
+  overflow-y: hidden;
 }
 
 .card:hover {
   cursor: pointer;
+}
+
+.card > * {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.title,
+.period,
+.price {
+  align-self: center;
+}
+
+.description {
+  text-align: justify;
+  padding: 10px;
+  height: 100px;
+  overflow-y: hidden;
+}
+
+.card-btn {
+  width: 80px;
+  height: 30px;
+  align-self: center;
+  border: 1px solid rgba(128, 128, 128, 0.418);
+  border-radius: 0;
+  background-color: rgb(189, 219, 228);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+.card-btn:hover {
+  cursor: pointer;
+}
+
+.show-description {
+  height: auto;
 }
