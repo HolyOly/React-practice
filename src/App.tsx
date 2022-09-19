@@ -9,11 +9,14 @@ function App() {
   return (
     <div className='class-root'>
       <NavEl></NavEl>
-      <Card
-        title={data[0].title}
-        price={data[0].price}
-        period={data[0].period}
-        description={data[0].description} img={ data[0].img}></Card>
+      <div className="cards">
+        <Card {...data[0]}></Card>
+        <Card {...data[1]}></Card>
+        <Card {...data[2]}></Card>
+        <Card {...data[3]}></Card>
+        <Card {...data[4]}></Card>
+        <Card {...data[5]}></Card>
+      </div>
     </div>
   );
 }
