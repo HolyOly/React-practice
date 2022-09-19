@@ -1,8 +1,7 @@
 import React from 'react';
 import { Card } from './components/cards/card';
-// import { Cards } from './components/cards/cards';
-// import { InputText } from './components/inputText.ts/inputText';
-import { NavEl } from './components/navigaton/navigation';
+import { Footer } from './components/footer/Footer';
+import { NavEl } from './components/navigaton/Navigation';
 import { data } from './data/data';
 
 function App() {
@@ -17,13 +16,9 @@ function App() {
         <Card {...data[4]}></Card>
         <Card {...data[5]}></Card>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
 
 export default App;
-
-// title={ data.title }
-//         price={ data.price }
-//         period={ data.period }
-//         description={ data.description

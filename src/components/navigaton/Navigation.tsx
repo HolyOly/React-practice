@@ -1,4 +1,4 @@
-import { InputText } from "../inputText.ts/inputText";
+import { InputText } from "../inputText.ts/Search";
 import './navigation.css';
 
 export function NavEl() {

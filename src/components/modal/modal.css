@@ -1,0 +1,24 @@
+.modal {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  margin-top: -25%;
+  margin-left: -25%;
+  z-index: 400;
+  background-color: rgba(240, 248, 255, 0.555);
+  display: none;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+.modal-hidden {
+  display: none;
+}
+
+.modal-show {
+  display: flex;
+}
